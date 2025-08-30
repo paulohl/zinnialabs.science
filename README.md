@@ -60,46 +60,28 @@ https://zinnialabs.science
        - Open-source repos (linked to GitHub).
    - Each card: black border, light hover effect, metadata (date, author, repo
    
-4. The Lab Manifesto
-    - Blog-style or grid of published:
-       - Research articles (hosted PDF, Authorea, or preprint links).
-       - Book chapters       - 
-       - AI security illustrations and pipeline diagrams.
-       - Open-source repos (linked to GitHub).
-   - Each card: black border, light hover effect, metadata (date, author, repo
-
 
 <br>[IV]. **The Lab Manifesto**    
-   - Blog-style or grid of published:
-       - Research articles (hosted PDF, Authorea, or preprint links).
-       - Book chapters       - 
-       - AI security illustrations and pipeline diagrams.
-       - Open-source repos (linked to GitHub).
-   - Each card: black border, light hover effect, metadata (date, author, repo
+   - Tone: Half-academic, half-cyberpunk
+   - Expresses:
+       - Independence from VC-driven hype.
+       - A love for systems thinking and real-world impact. 
+       - Commitment to rigorous, post-PhD-level experimentation.
 
 
-    - Blog-style or grid of published:
-       - Research articles (hosted PDF, Authorea, or preprint links).
-       - Book chapters       - 
-       - AI security illustrations and pipeline diagrams.
-       - Open-source repos (linked to GitHub).
-   - Each card: black border, light hover effect, metadata (date, author, repo
-
-
-
-Sample section:
+<br>Sample section:
 
 > “We believe in engineering truths, not frameworks built for investor decks. This Lab exists to slow down thinking, to give ideas enough space to mature, and to bring forth AI systems with architectural integrity.”
 
-5. Contact / Collaboration
-    - Just an email or mailto: link with instructions like:
-    >
-    
-    > “If you’re a publisher, researcher, or builder looking to think deeper — contact us. If you’re raising money, we probably won’t reply.”
+
+<br>[V]. **Contact / Collaboration**
+   - Just an email or mailto: link with instructions like:
+     >
+     
+     > “If you’re a publisher, researcher, or builder looking to think deeper — contact us. If you’re raising money, we probably won’t reply.”
 
 
-
-🎨 3.**Visual Language and Style**
+<br><br>🎨 3.**Visual Language and Style**
 
 - Palette:
     - Pure white #ffffff and black #000000.
@@ -113,8 +95,7 @@ Sample section:
     - Line dividers like old schematics or Bauhaus sketches.
 
 
-
-🧬 4. **Infrastructure (tech options)**
+<br><br>4. **Infrastructure (tech options)**
 
 | Feature               |	Recommendation                          |
 |-----------------------|------------------------------------------|
