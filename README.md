@@ -6,6 +6,8 @@ _____
 🔁
 ## Summary: Visual + Content Layout Plan for zinnialabs.science
 
+
+
 🌐 1. **Identity and Core Message**
 
 **Name**: Zinnia Labs
@@ -22,6 +24,8 @@ https://zinnialabs.science
 - The **research division** of Zinnia Holdings.
 - A home for **advanced AI thought**, not just product demos.
 - Focused on: AI philosophy, LLM internals, diffusion models, zero-persistence
+
+
 
 🧱 2. **Site Structure**: Minimal Sections, Maximum Impact
 
@@ -51,7 +55,7 @@ https://zinnialabs.science
        - **Synthetic Threat Simulation**
        - **Reinforcement Learning & Decision Theory**
 
-[III]. **Projects / Artifacts**
+3. **Projects / Artifacts**
     - Blog-style or grid of published:
         - Research articles (hosted PDF, Authorea, or preprint links).
         - Book chapters.
@@ -59,8 +63,8 @@ https://zinnialabs.science
         - Open-source repos (linked to GitHub).
     - Each card: black border, light hover effect, metadata (date, author, repo
 
-[IV]. The Lab Manifesto
-    - Tone: Half-academic, half-cyberpunk.
+4. The Lab Manifesto
+    - Tone: Half-academic, half-cyberpunk.-
     - Expresses:
         - Independence from VC-driven hype.
         - A love for systems thinking and real-world impact.
@@ -76,39 +80,33 @@ Sample section:
     
     > “If you’re a publisher, researcher, or builder looking to think deeper — contact us. If you’re raising money, we probably won’t reply.”
 
-🎨 3. Visual Language and Style
 
-Palette:
 
-Pure white #ffffff and black #000000.
+🎨 3.**Visual Language and Style**
 
-Accent: screaming red #ff0033, radioactive green #00ff99, or blueprint cyan #33ccff — used sparingly.
+- Palette:
+    - Pure white #ffffff and black #000000.
+    - Accent: screaming red #ff0033, radioactive green #00ff99, or blueprint cyan #33ccff — used sparingly.
+- Typography:
+    - Headers: Giorgio, Monument Grotesk, or League Spartan.
+    - Body: IBM Plex Mono, Inter, or Cormorant Garamond.
+- Layout:
+    - 1-column design, wide margins, extreme white space.
+    - Everything floats or is hard-aligned to a grid.
+    - Line dividers like old schematics or Bauhaus sketches.
 
-Typography:
 
-Headers: Giorgio, Monument Grotesk, or League Spartan.
 
-Body: IBM Plex Mono, Inter, or Cormorant Garamond.
+🧬 4. **Infrastructure (tech options)**
 
-Layout:
-
-1-column design, wide margins, extreme white space.
-Layout:
-
-1-column design, wide margins, extreme white space.
-
-Everything floats or is hard-aligned to a grid.
-
-Line dividers like old schematics or Bauhaus sketches.
-
-🧬 4. Infrastructure (tech options)
-Feature	Recommendation
-Builder	Static site (Hugo, Next.js, Astro)
-Hosting	Vercel, Netlify, or Cloudflare Pages
-Blog / Articles	Markdown-based with custom renderer
-CMS (Optional)	Notion + Super.so OR Ghost (self-hosted)
-Forms	Formspree or disable (email-only)
-Versioning	GitHub + public changelog (optional)
+| Feature               |	Recommendation                          |
+|-----------------------|------------------------------------------|
+| Builder	            | Static site (Hugo, Next.js, Astro)       |
+| Hosting	            | Vercel, Netlify, or Cloudflare Pages     |
+| Blog / Articles	      | Markdown-based with custom renderer      |
+| CMS (Optional)	      | Notion + Super.so OR Ghost (self-hosted) |
+| Forms	               | Formspree or disable (email-only)        |
+| Versioning	         | GitHub + public changelog (optional)     |
 
 
 
