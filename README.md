@@ -6,9 +6,7 @@ _____
 🔁
 ## Summary: Visual + Content Layout Plan for zinnialabs.science
 
-
-
-🌐 1. **Identity and Core Message**
+<br><br>🌐 1. **Identity and Core Message**
 
 **Name**: Zinnia Labs
 **Domain**: 
@@ -25,11 +23,9 @@ https://zinnialabs.science
 - A home for **advanced AI thought**, not just product demos.
 - Focused on: AI philosophy, LLM internals, diffusion models, zero-persistence
 
+<br><br>🧱 2. **Site Structure**: Minimal Sections, Maximum Impact
 
-
-🧱 2. **Site Structure**: Minimal Sections, Maximum Impact
-
-[I]. **Home / Lab Entry**
+<br>[I]. **Home / Lab Entry**
    - **Hero block**:
        - Clean white or jet-black background (toggle optional).
        - Thin black outlined logo or glyph.
@@ -45,7 +41,8 @@ https://zinnialabs.science
      
      >_ Initializing: Agentic AI Labs_
 
-[II]. **Research Areas**
+
+<br>[II]. **Research Areas**
    - Layout: **Three horizontal bands**, minimal cards or typewriter text.
    - Titles only at first — expands/clicks reveal more (accordion or hover).
        - **AI & Philosophy**
@@ -55,20 +52,40 @@ https://zinnialabs.science
        - **Synthetic Threat Simulation**
        - **Reinforcement Learning & Decision Theory**
 
-3. **Projects / Artifacts**
-    - Blog-style or grid of published:
-        - Research articles (hosted PDF, Authorea, or preprint links).
-        - Book chapters.
-        - AI security illustrations and pipeline diagrams.
-        - Open-source repos (linked to GitHub).
-    - Each card: black border, light hover effect, metadata (date, author, repo
-
+<br>[III]. **Projects / Artifacts**    
+   - Blog-style or grid of published:
+       - Research articles (hosted PDF, Authorea, or preprint links).
+       - Book chapters       - 
+       - AI security illustrations and pipeline diagrams.
+       - Open-source repos (linked to GitHub).
+   - Each card: black border, light hover effect, metadata (date, author, repo
+   
 4. The Lab Manifesto
-    - Tone: Half-academic, half-cyberpunk.-
-    - Expresses:
-        - Independence from VC-driven hype.
-        - A love for systems thinking and real-world impact.
-        - Commitment to rigorous, post-PhD-level experimentation.
+    - Blog-style or grid of published:
+       - Research articles (hosted PDF, Authorea, or preprint links).
+       - Book chapters       - 
+       - AI security illustrations and pipeline diagrams.
+       - Open-source repos (linked to GitHub).
+   - Each card: black border, light hover effect, metadata (date, author, repo
+
+
+<br>[IV]. **The Lab Manifesto**    
+   - Blog-style or grid of published:
+       - Research articles (hosted PDF, Authorea, or preprint links).
+       - Book chapters       - 
+       - AI security illustrations and pipeline diagrams.
+       - Open-source repos (linked to GitHub).
+   - Each card: black border, light hover effect, metadata (date, author, repo
+
+
+    - Blog-style or grid of published:
+       - Research articles (hosted PDF, Authorea, or preprint links).
+       - Book chapters       - 
+       - AI security illustrations and pipeline diagrams.
+       - Open-source repos (linked to GitHub).
+   - Each card: black border, light hover effect, metadata (date, author, repo
+
+
 
 Sample section:
 
