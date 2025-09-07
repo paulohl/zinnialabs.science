@@ -1,37 +1,122 @@
 
-body.dark {
-  background-color: #0d0d0d;
-  color: #e0e0e0;
-  font-family: 'IBM Plex Mono', monospace;
+/* assets/css/styles.css */
+
+/* 1. Imports */
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=IBM+Plex+Mono&display=swap');
+
+/* 2. CSS Reset */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+/* 3. Base Typography */
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  color: #f0f0f0;
+  background-color: #111;
+  background-image: url('../images/hex-background-networking.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  line-height: 1.6;
 }
 
 h1, h2, h3 {
   font-family: 'Gloock', serif;
+  font-weight: normal;
+  letter-spacing: 0.5px;
 }
 
-nav ul {
+a {
+  color: #ff4060;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+a:hover {
+  color: #fff;
+}
+
+/* 4. Layout Containers */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* 5. Navigation Bar */
+nav {
   display: flex;
-  gap: 1rem;
-  list-style: none;
-  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.85);
+  border-bottom: 1px solid #222;
 }
 
 nav a {
-  text-decoration: none;
-  color: #e0e0e0;
-  font-weight: bold;
+  margin-left: 1.5rem;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
+/* 6. Hero Section */
 .hero {
-  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 2rem;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(2px);
+  border-bottom: 1px solid #222;
 }
 
+.hero img {
+  max-width: 180px;
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  max-width: 640px;
+  font-size: 1.1rem;
+  opacity: 0.85;
+}
+
+/* 7. Sections */
+section {
+  padding: 4rem 2rem;
+}
+
+/* 8. Footer */
 footer {
   text-align: center;
   padding: 2rem;
-  font-size: 0.875rem;
+  font-size: 0.9rem;
   opacity: 0.6;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* 9. Responsiveness */
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+  nav a {
+    margin: 0.5rem 0;
+  }
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
 }
