@@ -170,3 +170,12 @@ footer {
   border-radius: 12px;
   margin: 20px 0;
 }
+/* Hero Fade-in Animation */
+.hero {
+  opacity: 0;
+  transition: opacity 1.2s ease;
+}
+
+.hero.visible {
+  opacity: 1;
+}
