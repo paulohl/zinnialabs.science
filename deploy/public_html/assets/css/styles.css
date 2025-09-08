@@ -16,10 +16,11 @@ body {
   color: #f0f0f0;
   background-color: #111;
   background-image: url('../images/hex-background-networking.jpg');
+  /*background-attachment: scroll;  instead of fixed */
+  background-attachment: fixed; /* re-enable only if parallax effect desired */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-attachment: scroll; /* instead of fixed */
   line-height: 1.6;
 }
 
