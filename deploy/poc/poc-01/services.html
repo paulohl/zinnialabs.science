@@ -1,0 +1,106 @@
+<!-- services.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Services – Zinnia Labs</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Gloock&family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .service-box {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid #333;
+      padding: 2rem;
+      border-radius: 12px;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+
+    .service-box:hover {
+      transform: translateY(-5px);
+      background: rgba(255, 255, 255, 0.06);
+    }
+
+    .service-box h3 {
+      margin-bottom: 1rem;
+      font-size: 1.3rem;
+      color: #ff4060;
+    }
+
+    .service-box p {
+      font-size: 0.95rem;
+      opacity: 0.85;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <div class="overlay">
+      <h1>Services</h1>
+      <p class="tagline">Specialized solutions at the intersection of AI, security, and infrastructure.</p>
+    </div>
+  </div>
+
+  <nav class="nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="container">
+    <div class="services-grid">
+      <div class="service-box">
+        <h3>AI-Driven Incident Response</h3>
+        <p>
+          We use Hugging Face Diffusers to automate threat detection, classification, and resolution. Our AI frameworks reduce SOC fatigue and accelerate response cycles.
+        </p>
+      </div>
+      <div class="service-box">
+        <h3>Multi-Cloud Architecture & AI Infrastructure</h3>
+        <p>
+          Design, deployment, and benchmarking of AI pipelines across AWS, Azure, and GCP. From GPU optimization to inference APIs, we own the entire stack.
+        </p>
+      </div>
+      <div class="service-box">
+        <h3>LLM & Embedding Indexes</h3>
+        <p>
+          Architect your organization’s private memory. Retrieval-augmented generation (RAG), vector stores, fine-tuning, and prompt design — optimized for enterprise use.
+        </p>
+      </div>
+      <div class="service-box">
+        <h3>AI Product Strategy</h3>
+        <p>
+          From PoC to production — we help businesses build and launch meaningful, deployable AI products. No hype, just code and results.
+        </p>
+      </div>
+      <div class="service-box">
+        <h3>Digital Transformation for Governments</h3>
+        <p>
+          We’ve designed Smart City and National Digital Architecture blueprints for 7+ countries. From procurement to final deployment.
+        </p>
+      </div>
+      <div class="service-box">
+        <h3>Custom Deployments & Agents</h3>
+        <p>
+          Open-source AI agents, stateless containerized training, serverless pipelines, and fine-grained control for your domain-specific use cases.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Zinnia Holdings LLC. All rights reserved.
+  </footer>
+</body>
+</html>

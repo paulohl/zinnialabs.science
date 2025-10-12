@@ -1,0 +1,126 @@
+<!-- projects.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects – Zinnia Labs</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Gloock&family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .project-card {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid #333;
+      border-radius: 12px;
+      overflow: hidden;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-4px);
+      background: rgba(255, 255, 255, 0.06);
+    }
+
+    .project-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .project-card-content {
+      padding: 1.5rem;
+    }
+
+    .project-card-content h3 {
+      margin-bottom: 0.6rem;
+      color: #ff4060;
+    }
+
+    .project-card-content p {
+      font-size: 0.95rem;
+      opacity: 0.85;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <div class="overlay">
+      <h1>Projects</h1>
+      <p class="tagline">Real-world deployments, research breakthroughs, and experimental pipelines.</p>
+    </div>
+  </div>
+
+  <nav class="nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="container">
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="assets/images/project-hochiminh.jpg" alt="Ho Chi Minh Smart City">
+        <div class="project-card-content">
+          <h3>Ho Chi Minh Smart City</h3>
+          <p>City-wide ESB, data lake, and digital governance blueprint. Architected core systems under public-private coordination, 2020–2023.</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="assets/images/project-diffusers.jpg" alt="Diffusers for Incident Response">
+        <div class="project-card-content">
+          <h3>AI for Incident Response</h3>
+          <p>Fine-tuned Hugging Face Diffusers for real-time phishing mitigation. Preprint and pipeline benchmark published in 2025.</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="assets/images/project-alpha.jpg" alt="AlphaZero Fintech Experiments">
+        <div class="project-card-content">
+          <h3>AlphaZero for Trading</h3>
+          <p>Reinforcement Learning models applied to financial environments, including retro gym wrappers for reward signal optimization.</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="assets/images/project-aws.jpg" alt="Multi-Cloud MLOps">
+        <div class="project-card-content">
+          <h3>Multi-Cloud MLOps</h3>
+          <p>Benchmarked inference latency across AWS, Azure, and GCP. Released SageMaker templates and full ML system blueprints.</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="assets/images/project-agents.jpg" alt="AI Agents & Memory Indexes">
+        <div class="project-card-content">
+          <h3>Private Memory Agents</h3>
+          <p>Vector stores, semantic search, and Differentiable Latent Indexing (DLI-LLM) for secure organizational AI memory.</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="assets/images/project-gov.jpg" alt="Digital Gov Architectures">
+        <div class="project-card-content">
+          <h3>Digital Government Architecture</h3>
+          <p>Core contributor to the Rio Grande do Norte & USTDA architecture reports. Focus on infrastructure, policy, and citizen UX.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Zinnia Holdings LLC. All rights reserved.
+  </footer>
+</body>
+</html>
