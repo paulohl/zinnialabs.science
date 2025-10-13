@@ -1,0 +1,60 @@
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About – Zinnia Labs</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Gloock&family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="hero">
+    <div class="overlay">
+      <h1>About Zinnia Labs</h1>
+      <p class="tagline">Research. Design. Intelligence. Independence.</p>
+    </div>
+  </div>
+
+  <nav class="nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="container">
+    <h2>Our Mission</h2>
+    <p>
+      Zinnia Labs is the speculative and applied research arm of Zinnia Holdings — designed to explore the intersections of artificial intelligence, software engineering, and digital autonomy. We challenge trends. We prototype futures. We build what others only theorize.
+    </p>
+
+    <h2>Foundations</h2>
+    <p>
+      Our team emerged from decades of global consulting, architecture, and government AI projects. We operate in stealth, surface with precision, and believe in research with teeth — not vaporware.
+    </p>
+
+    <h2>Domains of Interest</h2>
+    <ul>
+      <li>Agentic AI + Reinforcement Learning</li>
+      <li>Cybersecurity Automation via Generative Models</li>
+      <li>Cloud-AI Infrastructure (AWS, On-Prem, Hybrid)</li>
+      <li>LLMs for Knowledge Indexing + Retrieval</li>
+      <li>Design Systems for Creative AI Labs</li>
+    </ul>
+
+    <h2>Style and Ethos</h2>
+    <p>
+      We prefer shadows to stage lights. Science to spectacle. Code to PowerPoint.  
+      Zinnia Labs is where questions are weaponized and answers are prototypes.
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Zinnia Holdings LLC. All rights reserved.
+  </footer>
+</body>
+</html>
