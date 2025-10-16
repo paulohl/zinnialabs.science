@@ -32,6 +32,7 @@ _AI Research → IP Creation → Commercialization_        <br>
 - __Private GitHub Repository Access__: per-license authentication for enterprise clients. Boutique consulting (AI + Security for Governments/Enterprises)
   - Licensable intellectual frameworks (e.g., “DLI-LLM” architecture)
   - Specialized SaaS microtools built under the Zinnia Labs umbrella
+
 <br>
 
 4. __Revenue Streams__     
@@ -43,27 +44,34 @@ _AI Research → IP Creation → Commercialization_        <br>
  |  __Consulting & Implementation__     | Applied design and integration of Zinnia architectures.            |   Hourly or project-based ($200–400/hr baseline). |
  |  __Training / Knowledge Transfer__   |  Workshops for institutional clients (no generic courses).         |   $10–25k per session, delivered with published material.  |
  |  __Co-Authorship / Joint Grants__    |  Paid research partnerships or joint applications for fundin       |   Revenue or IP share.                       |
- |  __Royalties / Revenue Share__	      |  Revenue Share	For IP embedded into commercial products.	         |   Royalties / Revenue Share	       |     <br>  
+ |  __Royalties / Revenue Share__	      |  Revenue Share	For IP embedded into commercial products.	         |   Royalties / Revenue Share	       |     
+ 
+ <br>  
 
-5. __Key Resources__ <br>   
+5. __Key Resources__
+       
     - Proprietary manuscripts and frameworks (DLI-LLM, Diffusers for Cybersecurity, AWS Cloud Master Class, etc.)
     - Registered domains and brand identity (Zinnia Labs, Zinnia AI Software Engineering, Zinnia Holdings).
     - Authorea/SciencePG/Academia publications (establish provenance).
     - Visual IP library (diagrams, figures, models, learning architectures).
     - Trademark and copyright registrations for IP and visual assets.             
+
 <br>
 
-6. __Key Activities__     <br>
-<br>	
+6. __Key Activities__       
+
+	
+
  |  Area	                      |  Core	 Action                               |
  |:-----------------------------|:---------------------------------------------------------------------------------------------|
  |  __Research Development__    |   Maintain publication cycle—papers, preprints, and diagrams turned into IP filings.         |
  |  __IP Structuring__          |   Assign DOI + copyright + version control (Authorea + GitHub + ORCID).                      |
  |  __Consulting Engagements__  |   Apply frameworks to live projects (digital gov, incident response, cloud modernization).   |
  |  __Licensing Operations__    |   Build and manage catalog of licensable IP and whitepapers.                                 |
- |  __Brand Positioning__       |   Continue our “academic-industrial hybrid” voice through LinkedIn and SciencePG channels.   |     <br>
+ |  __Brand Positioning__       |   Continue our “academic-industrial hybrid” voice through LinkedIn and SciencePG channels.   |     
  
-
+ <br>
+ 
 7. __Key Partners__       
 
 - Publishers (SciencePG, Cambridge Scholars, PBP) – joint derivative licensing.
@@ -74,7 +82,7 @@ _AI Research → IP Creation → Commercialization_        <br>
 
 <br>
 
-8. Cost Structure     
+8. __Cost Structure__     
 
 - Research & Development (authors, diagrams, compute).
 - Publication & Licensing (editing, DOI, repository hosting).
@@ -93,7 +101,8 @@ _AI Research → IP Creation → Commercialization_        <br>
 | Stage 3 — Licensing Agreement	      | Offer three-tier model: Research Use, Commercial, and Integration License.	| Research (free), Commercial ($5k), Integration ($15k + support). |
 | Stage 4 — Implementation & Royalty	| Integrate under project or SaaS partner, with per-use royalties.	| Security integrator embeds model → 7% royalty. |
 | Stage 5 — Patent or Utility Filing	| For select architectures (DLI-LLM, hybrid reinforcement pipelines).	| Apply under Zinnia Holdings LLC.             |    
- <br>
+
+<br>
 
 10. __Strategic Advantage__     
 
