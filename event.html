@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zinnia Labs – Transmission</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Gloock&amp;family=IBM+Plex+Mono:wght@400;700&amp;display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-image: url('assets/images/wallpaperflare.com_wallpaper.png');
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .cryptic-container {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      backdrop-filter: blur(8px);
+      background-color: rgba(0, 0, 0, 0.65);
+      padding: 4rem 2rem;
+    }
+
+    .cryptic-text {
+      color: #eee;
+      max-width: 600px;
+    }
+
+    .cryptic-text h1 {
+      font-family: 'Gloock', serif;
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      letter-spacing: 1px;
+    }
+
+    .cryptic-text p {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 1rem;
+      opacity: 0.8;
+    }
+
+    .transmission {
+      margin-top: 2rem;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.9rem;
+      color: #ff003c;
+      letter-spacing: 2px;
+      opacity: 0.9;
+      animation: blink 2s infinite;
+    }
+
+    @keyframes blink {
+      0% { opacity: 0.8; }
+      50% { opacity: 0.3; }
+      100% { opacity: 0.8; }
+    }
+  </style>
+</head>
+<body>
+  <div class="cryptic-container">
+    <div class="cryptic-text">
+      <h1>transmission.pending</h1>
+      <p>Layer obscured. This node is not yet indexed.<br>Await signal alignment.</p>
+      <div class="transmission">:: awaiting vector signal ...</div>
+    </div>
+  </div>
+</body>
+</html>
+

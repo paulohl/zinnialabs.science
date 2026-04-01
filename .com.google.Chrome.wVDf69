@@ -1,0 +1,19 @@
+# Force HTTPS
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Use index.html as default in all folders
+DirectoryIndex index.html
+
+# Fix for "folder routes" (e.g., /about/)
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)/$ $1/index.html [L]
+</IfModule>
+
+# Disable folder browsing
+Options -Indexes
