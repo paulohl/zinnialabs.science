@@ -1,0 +1,91 @@
+/* assets/css/hell.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=IBM+Plex+Mono&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  color: #f0f0f0;
+  background-image: url('assets/images/wallpaperflare.com_wallpaper.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  padding: 4rem 2rem;
+  border-radius: 12px;
+  max-width: 720px;
+}
+
+.logo {
+  max-width: 120px;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-family: 'Gloock', serif;
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+  color: #ff003c;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+h1::after {
+  content: 'node0';
+  position: absolute;
+  top: 0;
+  left: 2px;
+  color: #fff;
+  opacity: 0.3;
+  mix-blend-mode: difference;
+  animation: glitch 1.5s infinite;
+}
+
+@keyframes glitch {
+  0% { transform: translate(0); }
+  20% { transform: translate(-1px, 1px); }
+  40% { transform: translate(-2px, -1px); }
+  60% { transform: translate(2px, 1px); }
+  80% { transform: translate(-1px, -2px); }
+  100% { transform: translate(0); }
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  opacity: 0.7;
+}
+
+.button-ghost {
+  padding: 0.6em 1.2em;
+  font-size: 0.85rem;
+  font-family: 'IBM Plex Mono', monospace;
+  color: #fff;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button-ghost:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ff003c;
+  border-color: #ff003c;
+}
