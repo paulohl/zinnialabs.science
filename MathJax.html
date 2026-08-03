@@ -75,22 +75,19 @@
     
     <p>Here is a complete sample page containing TeX mathematics (see the <a href="https://github.com/mathjax/MathJax-demos-web">MathJax Web Demos Repository</a> for more).</p>
 
-<pre>
-    <code>
-        <!DOCTYPE html>
-        <html>
-            <head>
-                <title>MathJax TeX Test Page</title>
-                <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js">
-                    
-                </script>
-            </head>
-            <body>
-                When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
-            </body>
-        </html>
-    </code>
-</pre>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;MathJax TeX Test Page&lt;/title&gt;
+&lt;script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js"&gt;
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+    
     <p>This renders as shown below:</p>
     <div class="demo-container">
         <iframe height="150" srcdoc='
@@ -119,68 +116,19 @@
 
     <p>Here is a complete sample page containing MathML mathematics:</p>
 
-<pre>
-    <code>
-        <!DOCTYPE html>
-        <html>
-            <head>
-                <title>MathJax MathML Test Page</title>
-                <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/mml-chtml.js">
-                    
-                </script>
-            </head>
-            <body>
-                <p> When 
-                    <math xmlns="http://www.w3.org/1998/Math/MathML">
-                        <mi>a</mi>
-                        <mo>&#x2260;</mo>
-                        <mn>0</mn>
-                    </math>,
-                    there are two solutions to 
-                    <math xmlns="http://www.w3.org/1998/Math/MathML">
-                        <mi>a</mi>
-                        <msup>
-                            <mi>x</mi>
-                            <mn>2</mn>
-                        </msup>
-                        <mo>+</mo> <mi>b</mi>
-                        <mi>x</mi>
-                        <mo>+</mo> <mi>c</mi> <mo>=</mo> <mn>0
-                        </mn>
-                    </math>
-                    and they are 
-                    <math xmlns="http://www.w3.org/1998/Math/MathML" display="block"> 
-                        <mi>x</mi> <mo>=</mo>
-                        <mrow>
-                            <mfrac>
-                                <mrow>
-                                    <mo>&#x2212;</mo>
-                                    <mi>b</mi>
-                                    <mo>&#x00B1;</mo>
-                                    <msqrt>
-                                        <msup>
-                                            <mi>b</mi>
-                                            <mn>2</mn>
-                                        </msup>
-                                        <mo>&#x2212;</mo>
-                                        <mn>4</mn>
-                                        <mi>a</mi>
-                                        <mi>c</mi>
-                                    </msqrt>
-                                </mrow>
-                                <mrow>
-                                    <mn>2</mn>
-                                    <mi>a</mi>
-                                </mrow>
-                            </mfrac>
-                        </mrow>
-                        <mtext>.</mtext>
-                    </math>
-                </p>
-            </body>
-        </html>
-    </code>
-</pre>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;MathJax TeX Test Page&lt;/title&gt;
+&lt;script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js"&gt;
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>    
+    
     <p>This renders as shown below:</p>
     <div class="demo-container">
         <iframe height="250" srcdoc='
@@ -261,31 +209,28 @@
 
     <p>Here is a complete sample page containing AsciiMath notation:</p>
     
-    <pre>
-        <code>
-            <!DOCTYPE html>
-            <html>
-                <head>
-                    <title>MathJax AsciiMath Test Page</title>
-                    <script>
-                        MathJax = {
-                            loader: {load: ["input/asciimath", "output/chtml", "ui/menu"]},
-                            output: {font: "mathjax-newcm"}
-                        }
-                    </script>
-                    <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/startup.js">
-                        
-                    </script>
-                    <body>
-                        
-                        <p>When `a != 0`, there are two solutions to `ax^2 + bx + c = 0` and they are</p>
-                        <p style="text-align:center">
-                            `x = (-b +- sqrt(b^2-4ac))/(2a) .`
-                        </p>
-                    </body>
-            </html>
-        </code>
-    </pre>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;MathJax AsciiMath Test Page&lt;/title&gt;
+&lt;script&gt;
+MathJax = {
+  loader: {load: ["input/asciimath", "output/chtml", "ui/menu"]},
+  output: {font: "mathjax-newcm"}
+}
+&lt;/script&gt;
+&lt;script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/startup.js"&gt;
+&lt;/script&gt;
+&lt;body&gt;
+
+&lt;p&gt;When `a != 0`, there are two solutions to `ax^2 + bx + c = 0` and
+they are&lt;/p&gt;
+&lt;p style="text-align:center"&gt;
+  `x = (-b +- sqrt(b^2-4ac))/(2a) .`
+&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
     
     <p>This renders as shown below:</p>
     <div class="demo-container">
