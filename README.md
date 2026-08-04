@@ -2,7 +2,7 @@
 # ZINNIA LABS
 
 Zinnia Labs Science pages repository: 
-![Zinnia Labs](https://github.com/paulohl/zinnialabs.science/assets/images/2026-04-29 06.06.26.png "Zinnia Labs")
+![Zinnia Labs](https://github.com/paulohl/zinnialabs.science/assets/images/2026-04-29 06.06.26.png/ "Zinnia Labs")
 
 
 
