@@ -1,6 +1,6 @@
 @misc{https://doi.org/10.6084/m9.figshare.32952530,       
   doi = {10.6084/M9.FIGSHARE.32952530},      
-  url = {https://figshare.com/articles/dataset/_b_Curriculum-Induced_Symbol_Invention_for_Emergent_Reasoning_Primitives_CISI_Hypothesis_2_b_/32952530},
+  url = {https://figshare.com/articles/dataset/_b_Curriculum-Induced_Symbol_Invention_for_Emergent_Reasoning_Primitives_CISI_Hypothesis_2_b_/32952530},      
   author = {Leocadio, Paulo},     
   keywords = {Artificial life and complex adaptive systems, Artificial intelligence not elsewhere classified, Machine learning not elsewhere classified, Adversarial machine learning},      
   title = {<b>Curriculum-Induced Symbol Invention for Emergent Reasoning Primitives (CISI) – Hypothesis 2</b>},      
@@ -9,32 +9,36 @@
   copyright = {Creative Commons Attribution 4.0 International}      
 }      
 
-,
-@misc{https://doi.org/10.6084/m9.figshare.32952458,
-  doi = {10.6084/M9.FIGSHARE.32952458},
+,      
+@misc{https://doi.org/10.6084/m9.figshare.32952458,      
+  doi = {10.6084/M9.FIGSHARE.32952458},      
   url = {https://figshare.com/articles/dataset/_b_Differentiable_Latent_Indexing_inside_Large_Language_Models_DLI-LLM_-_Hypothesis_1_b_/32952458},
-  author = {Leocadio, Paulo},
-  keywords = {Artificial life and complex adaptive systems, Artificial intelligence not elsewhere classified, Adversarial machine learning, Machine learning not elsewhere classified},
-  title = {<b>Differentiable Latent Indexing inside Large Language Models (DLI-LLM) - Hypothesis 1</b>},
-  publisher = {figshare},
-  year = {2026},
-  copyright = {Creative Commons Attribution 4.0 International}
-}
+  author = {Leocadio, Paulo},     
+  keywords = {Artificial life and complex adaptive systems, Artificial intelligence not elsewhere classified, Adversarial machine learning, Machine learning not elsewhere classified},     
+  title = {<b>Differentiable Latent Indexing inside Large Language Models (DLI-LLM) - Hypothesis 1</b>},      
+  publisher = {figshare},      
+  year = {2026},      
+  copyright = {Creative Commons Attribution 4.0 International}     
+}      
+
 ,
-@misc{https://doi.org/10.6084/m9.figshare.32952662,
-  doi = {10.6084/M9.FIGSHARE.32952662},
+@misc{https://doi.org/10.6084/m9.figshare.32952662,      
+  doi = {10.6084/M9.FIGSHARE.32952662},      
   url = {https://figshare.com/articles/dataset/_b_Hierarchical_Topic-Conditioned_Routing_for_Mixture-of-Expert_Language_Models_HTCR_Hypothesis_3_b_/32952662},
-  author = {Leocadio, Paulo},
-  keywords = {Artificial intelligence not elsewhere classified, Artificial life and complex adaptive systems, Machine learning not elsewhere classified, Adversarial machine learning},
+  author = {Leocadio, Paulo},       
+  keywords = {Artificial intelligence not elsewhere classified, Artificial life and complex adaptive systems, Machine learning not elsewhere classified, Adversarial machine learning},     
   title = {<b>Hierarchical Topic-Conditioned Routing for Mixture-of-Expert Language Models (HTCR) – Hypothesis 3</b>},
-  publisher = {figshare},
-  year = {2026},
-  copyright = {Creative Commons Attribution 4.0 International}
+  publisher = {figshare},     
+  year = {2026},      
+  copyright = {Creative Commons Attribution 4.0 International}     
+}      
+
+,
+ @article{Leocadio_2026, title={Differentiable Latent Indexing in LLMs: Toward Native Retrieval as a Cognitive Function},       
+url={http://dx.doi.org/10.2139/ssrn.6821299},         
+DOI={10.2139/ssrn.6821299}, publisher={Elsevier BV}, author={Leocadio, Paulo}, year={2026} }\\,
+ @article{Leocadio_2026, title={Transforming Incident Response: The Role of Hugging Face Diffusers in Automating Cybersecurity Workflows}, url={http://dx.doi.org/10.22541/au.177446759.98281679/v1}, DOI={10.22541/au.177446759.98281679/v1}, publisher={Wiley}, author={Leocadio, Paulo H.}, year={2026}, month=Mar       
 }
-,
- @article{Leocadio_2026, title={Differentiable Latent Indexing in LLMs: Toward Native Retrieval as a Cognitive Function}, url={http://dx.doi.org/10.2139/ssrn.6821299}, DOI={10.2139/ssrn.6821299}, publisher={Elsevier BV}, author={Leocadio, Paulo}, year={2026} }
-,
- @article{Leocadio_2026, title={Transforming Incident Response: The Role of Hugging Face Diffusers in Automating Cybersecurity Workflows}, url={http://dx.doi.org/10.22541/au.177446759.98281679/v1}, DOI={10.22541/au.177446759.98281679/v1}, publisher={Wiley}, author={Leocadio, Paulo H.}, year={2026}, month=Mar }
 ,
  @article{Leocadio_2026, title={Thinking Cybersecurity: Part I -Foundations and Frameworks CHAPTER 1 THE RISE OF AGENTIC AI IN CYBERSECURITY}, url={http://dx.doi.org/10.22541/au.177307127.70400431/v1}, DOI={10.22541/au.177307127.70400431/v1}, publisher={Wiley}, author={Leocadio, Paulo H. and Leocadio, Paulo H}, year={2026}, month=Mar }
 ,
@@ -214,38 +218,44 @@ By the end, readers will confidently architect, secure, and optimize scalable cl
   publisher = {figshare},
   year = {2022},
   copyright = {Creative Commons Attribution 4.0 International}
-}
+}      
+
 ,
-@article{https://doi.org/10.6084/m9.figshare.21095368.v1,
-  doi = {10.6084/M9.FIGSHARE.21095368.V1},
+@article{https://doi.org/10.6084/m9.figshare.21095368.v1,      
+  doi = {10.6084/M9.FIGSHARE.21095368.V1},      
   url = {https://figshare.com/articles/journal_contribution/The_importance_of_Big_Data_US_Internal_Revenue_Service/21095368/1},
-  author = {Leocadio, Paulo},
-  keywords = {Pattern recognition, Data mining and knowledge discovery, Organisation of information and knowledge resources, Data structures and algorithms, Data models, storage and indexing},
-  title = {The importance of Big Data: US Internal Revenue Service},
-  publisher = {figshare},
-  year = {2022},
-  copyright = {Creative Commons Attribution 4.0 International}
-}
+  author = {Leocadio, Paulo},      
+  keywords = {Pattern recognition, Data mining and knowledge discovery, Organisation of information and knowledge resources, Data structures and algorithms, Data models, storage and indexing},      
+  title = {The importance of Big Data: US Internal Revenue Service},     
+  publisher = {figshare},      
+  year = {2022},      
+  copyright = {Creative Commons Attribution 4.0 International}       
+}      
+
 ,
-@misc{https://doi.org/10.6084/m9.figshare.21405936.v1,
-  doi = {10.6084/M9.FIGSHARE.21405936.V1},
-  url = {https://figshare.com/articles/presentation/iGIS_REPORT_GIP_/21405936/1},
-  author = {Leocadio, Paulo},
-  keywords = {Climatology, Other earth sciences not elsewhere classified, Environmental assessment and monitoring, Satellite communications, Other engineering not elsewhere classified},
-  title = {iGIS REPORT (GIP)},
-  publisher = {figshare},
-  year = {2022},
-  copyright = {Creative Commons Attribution 4.0 International}
-}
+@misc{https://doi.org/10.6084/m9.figshare.21405936.v1,      
+  doi = {10.6084/M9.FIGSHARE.21405936.V1},      
+  url = {https://figshare.com/articles/presentation/iGIS_REPORT_GIP_/21405936/1},       
+  author = {Leocadio, Paulo},      
+  keywords = {Climatology, Other earth sciences not elsewhere classified, Environmental assessment and monitoring, Satellite communications, Other engineering not elsewhere classified},      
+  title = {iGIS REPORT (GIP)},     
+  publisher = {figshare},      
+  year = {2022},       
+  copyright = {Creative Commons Attribution 4.0 International}      
+}       
+
 ,
-@article{https://doi.org/10.5281/zenodo.5039621,
-  doi = {10.5281/ZENODO.5039621},
-  url = {https://zenodo.org/doi/10.5281/zenodo.5039621},
-  author = {Leocadio, Paulo},
-  keywords = {Big Data, Analytics},
-  language = {ko},
-  title = {[GIP] 글로벌 인터뷰 미국 Paulo Leocadio 빅데이터의 중요성- 미 국세 청의 사례 [Global Interview: The Importance of Big Data - US Internal Revenue Service (IRS) Case Study]},
-  publisher = {Zenodo},
-  year = {2021},
-  copyright = {Creative Commons Attribution 4.0 International}
+@article{https://doi.org/10.5281/zenodo.5039621,      
+  doi = {10.5281/ZENODO.5039621},      
+  url = {https://zenodo.org/doi/10.5281/zenodo.5039621},      
+  author = {Leocadio, Paulo},      
+  keywords = {Big Data, Analytics},     
+  language = {ko},      
+  title = {[GIP] 글로벌 인터뷰 미국 Paulo Leocadio 빅데이터의 중요성- 미 국세 청의 사례 [Global Interview: The Importance of Big Data - US Internal Revenue Service (IRS) Case Study]},      
+  publisher = {Zenodo},      
+  year = {2021},      
+  copyright = {Creative Commons Attribution 4.0 International     
+  }      
+
+  
 }
