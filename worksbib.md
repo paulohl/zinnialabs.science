@@ -1,13 +1,14 @@
-@misc{https://doi.org/10.6084/m9.figshare.32952530,
-  doi = {10.6084/M9.FIGSHARE.32952530},
+@misc{https://doi.org/10.6084/m9.figshare.32952530,       
+  doi = {10.6084/M9.FIGSHARE.32952530},      
   url = {https://figshare.com/articles/dataset/_b_Curriculum-Induced_Symbol_Invention_for_Emergent_Reasoning_Primitives_CISI_Hypothesis_2_b_/32952530},
-  author = {Leocadio, Paulo},
-  keywords = {Artificial life and complex adaptive systems, Artificial intelligence not elsewhere classified, Machine learning not elsewhere classified, Adversarial machine learning},
-  title = {<b>Curriculum-Induced Symbol Invention for Emergent Reasoning Primitives (CISI) – Hypothesis 2</b>},
-  publisher = {figshare},
-  year = {2026},
-  copyright = {Creative Commons Attribution 4.0 International}
-}
+  author = {Leocadio, Paulo},     
+  keywords = {Artificial life and complex adaptive systems, Artificial intelligence not elsewhere classified, Machine learning not elsewhere classified, Adversarial machine learning},      
+  title = {<b>Curriculum-Induced Symbol Invention for Emergent Reasoning Primitives (CISI) – Hypothesis 2</b>},      
+  publisher = {figshare},      
+  year = {2026},      
+  copyright = {Creative Commons Attribution 4.0 International}      
+}      
+
 ,
 @misc{https://doi.org/10.6084/m9.figshare.32952458,
   doi = {10.6084/M9.FIGSHARE.32952458},
