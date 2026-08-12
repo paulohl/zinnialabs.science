@@ -48,8 +48,7 @@ The publications are organized by research phase, tracing the project's evolutio
 * **Core Contribution:** A historical review of bounded rationality models and their limitations in capturing clinical subjective experiences.
 * **Artifacts:** [[Publisher Link]] | [[Draft Version]]
 
-### 📊 Phase 2: Empirical Modeling & Simulation
-
+### 📊 Phase 2: Data CollectionGather information: Run tests, do surveys, or track field notes.Organize data: Store raw files safely and check for early errors
 *Focuses on computational implementations, agent-based modeling, and simulating bounded cognitive architectures under clinical constraints.* 
 
 ### 📄 Conference Paper: [Insert Paper Title]
@@ -59,7 +58,7 @@ The publications are organized by research phase, tracing the project's evolutio
 * **Core Contribution:** Presents the first algorithmic simulation of a bounded cognitive agent interacting with an engineered subjective environment.
 * **Artifacts:** [[IEEE Xplore/ACM Link]] | [[Code Repository](https://github.com/username/project-simulation)] | [[Presentation Slides](./slides/cogsci-presentation.pdf)]
 
-### 💡 Phase 3: Applied Architectures & Synthesis
+### 💡 Phase 3: Analysis and Evaluation Process data: Clean the numbers or code text material.Examine patterns: Look for trends to test your main guess.Form conclusions: Decide what the findings mean for your
 
 *Focuses on translating the theoretical bridge into concrete engineering blueprints, algorithmic safeguards, or clinical decision-support tools.* 
 
@@ -69,6 +68,57 @@ The publications are organized by research phase, tracing the project's evolutio
 * **Venue:** *[e.g., Behavioral and Brain Sciences / Trends in Cognitive Sciences]*
 * **Core Contribution:** Synthesizes the multi-year findings into a unified architectural framework for engineered bounded cognition.
 * **Artifacts:** [[DOI Link]] | [[Open Science Framework (OSF) Project]]
+
+### 📄 Conference Paper: [Insert Paper Title]
+
+* **Type:** Peer-Reviewed Conference Proceedings
+* **Venue:** *[e.g., Cognitive Science Society (CogSci) / NeurIPS]*
+* **Core Contribution:** Presents the first algorithmic simulation of a bounded cognitive agent interacting with an engineered subjective environment.
+* **Artifacts:** [[IEEE Xplore/ACM Link]] | [[Code Repository](https://github.com/username/project-simulation)] | [[Presentation Slides](./slides/cogsci-presentation.pdf)]
+
+### 📄 Conference Paper: [Insert Paper Title]
+
+* **Type:** Peer-Reviewed Conference Proceedings
+* **Venue:** *[e.g., Cognitive Science Society (CogSci) / NeurIPS]*
+* **Core Contribution:** Presents the first algorithmic simulation of a bounded cognitive agent interacting with an engineered subjective environment.
+* **Artifacts:** [[IEEE Xplore/ACM Link]] | [[Code Repository](https://github.com/username/project-simulation)] | [[Presentation Slides](./slides/cogsci-presentation.pdf)]
+
+### 💡 Phase 4: Reporting and SharingWrite the paper: Draft your introduction, methods, and results.Cite sources: Give credit to all background literature.Publish or present: Share your final work with the public or a
+
+*Focuses on translating the theoretical bridge into concrete engineering blueprints, algorithmic safeguards, or clinical decision-support tools.* 
+
+### 📄 Comprehensive Review Article: [Insert Title]
+
+* **Type:** Target Review Paper
+* **Venue:** *[e.g., Behavioral and Brain Sciences / Trends in Cognitive Sciences]*
+* **Core Contribution:** Synthesizes the multi-year findings into a unified architectural framework for engineered bounded cognition.
+* **Artifacts:** [[DOI Link]] | [[Open Science Framework (OSF) Project]]
+
+### 📄 Conference Paper: [Insert Paper Title]
+
+* **Type:** Peer-Reviewed Conference Proceedings
+* **Venue:** *[e.g., Cognitive Science Society (CogSci) / NeurIPS]*
+* **Core Contribution:** Presents the first algorithmic simulation of a bounded cognitive agent interacting with an engineered subjective environment.
+* **Artifacts:** [[IEEE Xplore/ACM Link]] | [[Code Repository](https://github.com/username/project-simulation)] | [[Presentation Slides](./slides/cogsci-presentation.pdf)]
+
+### 📄 Conference Paper: [Insert Paper Title]
+
+* **Type:** Peer-Reviewed Conference Proceedings
+* **Venue:** *[e.g., Cognitive Science Society (CogSci) / NeurIPS]*
+* **Core Contribution:** Presents the first algorithmic simulation of a bounded cognitive agent interacting with an engineered subjective environment.
+* **Artifacts:** [[IEEE Xplore/ACM Link]] | [[Code Repository](https://github.com/username/project-simulation)] | [[Presentation Slides](./slides/cogsci-presentation.pdf)]
+
+### 📄 Conference Paper: [Insert Paper Title]
+
+* **Type:** Peer-Reviewed Conference Proceedings: [Insert Paper Title]
+* **Venue:**
+* **Core Contribution:** Algorithmic simulation of bounded cognitive agents for implantable medical devices.Cross-Disciplinary Impact: Formally cited by biomedical researchers as foundational architecture.
+* **Clinical Network Validation**: Referenced by active clinicians within the Medtronic ecosystem.
+* **Cited By**: 2+ academic publications (Biomedicine / Cognitive AI)
+* **Artifacts**: [[IEEE Xplore Link]] | [Code Repository]
+
+
+
 
 ### 📌 How to Cite This Research Series
 
