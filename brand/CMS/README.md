@@ -12,14 +12,15 @@ Integrating through Site Kit is our recommended solution for WordPress users. If
 2. On the left, under “Plugins,” click __Add New__.
 3. On the search bar, enter WPCode.
        . You can find the “WPCode – Insert Headers and Footers + Custom Code Snippets – WordPress Code Manager” plugin.
-To install this plugin, click Install Now.
-Once you install the plugin, to add a snippet:
-On the left, under “Code Snippets,” click Add snippet and then Add your Custom Code.
-Add a title you want to use for your snippet.
-Copy the Reader Revenue Manager code snippet.
-Paste the Reader Revenue Manager code snippet from the “CMS Sync” tab in Google Publisher Center.
-Turn on Active.
-Set “Code type” to “HTML Snippet.”
+4. To install this plugin, click Install Now.
+5. Once you install the plugin, to add a snippet:
+
+       a. On the left, under “Code Snippets,” click Add snippet and then Add your Custom Code.
+       b. Add a title you want to use for your snippet.
+       c, Copy the Reader Revenue Manager code snippet.
+       d. Paste the Reader Revenue Manager code snippet from the “CMS Sync” tab in Google Publisher Center.
+6. Turn on __Active__.
+7. Set “Code type” to “HTML Snippet.”
 Insertion method: “Auto Insert”
 Location: “Site Wide Header”
 Priority: “10” to “1"
