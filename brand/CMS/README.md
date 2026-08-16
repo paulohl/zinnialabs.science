@@ -47,10 +47,10 @@ If your entire site is built on Accelerated Mobile Pages (AMP), you should not u
 
 __Note__: On the page that results in an invalid AMP page, you keep a custom javascript code.
 
-Turn off Accelerated Mobile Pages
-On the search bar of the “Plugins” page, Enter “AMP.”
-Check the box next to AMP.
-Under “bulk actions,” select Deactivate.
-To remove your AMP pages from Google Search, learn how to remove AMP pages.
+## Turn off Accelerated Mobile Pages
+1. On the search bar of the “Plugins” page, Enter “AMP.”
+2. Check the box next to __AMP__.
+3. Under “bulk actions,” select __Deactivate__.
+4. To remove your AMP pages from Google Search, learn how to remove AMP pages.
 
 Give feedback about this article
