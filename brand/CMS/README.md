@@ -21,10 +21,11 @@ Integrating through Site Kit is our recommended solution for WordPress users. If
        d. Paste the Reader Revenue Manager code snippet from the “CMS Sync” tab in Google Publisher Center.
 6. Turn on __Active__.
 7. Set “Code type” to “HTML Snippet.”
-Insertion method: “Auto Insert”
-Location: “Site Wide Header”
-Priority: “10” to “1"
-At the top right, click __Save snippet__.
+        
+        * __Insertion method__: “Auto Insert”
+        *__Location__: “Site Wide Header”
+        * __Priority__: “10” to “1"
+8. At the top right, click __Save snippet__.
 Check Accelerated Mobile Pages compatibility
 If your entire site is built on Accelerated Mobile Pages (AMP), you should not use Reader Revenue Manager.
 
