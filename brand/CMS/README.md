@@ -26,22 +26,26 @@ Integrating through Site Kit is our recommended solution for WordPress users. If
         *__Location__: “Site Wide Header”
         * __Priority__: “10” to “1"
 8. At the top right, click __Save snippet__.
-Check Accelerated Mobile Pages compatibility
+
+## Check Accelerated Mobile Pages compatibility
+
 If your entire site is built on Accelerated Mobile Pages (AMP), you should not use Reader Revenue Manager.
 
-If you use Newspack, you can configure AMP.
-By default, AMP blocks the “Reader Revenue Manager” code snippets since it isn’t valid AMP.
-You can add the “Reader Revenue Manager” code snippet to your canonical pages and disable AMP if:
-You have both AMP and non-AMP pages.
-Use Allow-List to your code snippet within AMP
-On {site or location}, open an article with a broken pop-up in edit mode.
-To trigger an AMP error, click Revalidate.
-To show the article URL, in the AMP plugin, open validated URLs you want to use.
-To see a list of what AMP kept or removed, click Details.
-Select “code snippets” lines you want to allow.
-From the drop-down, change the value from “Removed” to “Kept.”
-Click Save.
-Note: On the page that results in an invalid AMP page, you keep a custom javascript code.
+       . If you use Newspack, you can configure AMP.
+       . By default, AMP blocks the “Reader Revenue Manager” code snippets since it isn’t valid AMP.
+       . You can add the “Reader Revenue Manager” code snippet to your canonical pages and disable AMP if:
+              . You have both AMP and non-AMP pages.
+
+## Use Allow-List to your code snippet within AMP
+1. On {site or location}, open an article with a broken pop-up in edit mode.
+2. To trigger an AMP error, click __Revalidate__.
+3. To show the article URL, in the AMP plugin, open validated URLs you want to use.
+4. To see a list of what AMP kept or removed, click __Details__.
+5. Select “code snippets” lines you want to allow.
+6. From the drop-down, change the value from “Removed” to “Kept.”
+7. Click __Save__.     
+
+__Note__: On the page that results in an invalid AMP page, you keep a custom javascript code.
 
 Turn off Accelerated Mobile Pages
 On the search bar of the “Plugins” page, Enter “AMP.”
