@@ -30,8 +30,7 @@ Integrating through Site Kit is our recommended solution for WordPress users. If
 ## Check Accelerated Mobile Pages compatibility
 
 If your entire site is built on Accelerated Mobile Pages (AMP), you should not use Reader Revenue Manager.
-
-       . If you use Newspack, you can configure AMP.
+       . If you use [Newspack](https://newspack.pub/), [you can configure AMP](https://amp.dev/).
        . By default, AMP blocks the “Reader Revenue Manager” code snippets since it isn’t valid AMP.
        . You can add the “Reader Revenue Manager” code snippet to your canonical pages and disable AMP if:
               . You have both AMP and non-AMP pages.
@@ -51,6 +50,6 @@ __Note__: On the page that results in an invalid AMP page, you keep a custom jav
 1. On the search bar of the “Plugins” page, Enter “AMP.”
 2. Check the box next to __AMP__.
 3. Under “bulk actions,” select __Deactivate__.
-4. To remove your AMP pages from Google Search, learn how to remove AMP pages.
+4. To remove your AMP pages from Google Search, [learn how to remove AMP pages](https://developers.google.com/search/docs/crawling-indexing/amp/remove-amp).
 
 Give feedback about this article
