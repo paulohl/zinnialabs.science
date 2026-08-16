@@ -1,10 +1,11 @@
 # Enable Reader Revenue Manager on WordPress
 
 ## Get started
-This guide shows how to set up your Reader Revenue Manager Integration in WordPress. To set up Reader Revenue Manager, complete all of the onboarding steps in Publisher Center.
+This guide shows how to set up your Reader Revenue Manager Integration in WordPress. To set up Reader Revenue Manager, complete all of the 
+[onboarding steps in Publisher Center](https://support.google.com/news/publisher-center/answer/11449914).
 
 Learn more about how to set up Reader Revenue Manager on Site Kit.
-
+[I'm an inline-style link](https://www.google.com)
 Integrating through Site Kit is our recommended solution for WordPress users. If you're unable to use Site Kit, you can install a third party plugin WPCode and follow the instructions below.
 
 ## For non-Site-Kit users: Add a code snippet to your publication
