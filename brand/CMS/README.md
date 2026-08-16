@@ -4,9 +4,9 @@
 This guide shows how to set up your Reader Revenue Manager Integration in WordPress. To set up Reader Revenue Manager, complete all of the 
 [onboarding steps in Publisher Center](https://support.google.com/news/publisher-center/answer/11449914).
 
-Learn more about how to set up Reader Revenue Manager on Site Kit.
-[I'm an inline-style link](https://www.google.com)
-Integrating through Site Kit is our recommended solution for WordPress users. If you're unable to use Site Kit, you can install a third party plugin WPCode and follow the instructions below.
+[Learn more about how to set up Reader Revenue Manager on Site Kit](https://sitekit.withgoogle.com/documentation/using-site-kit/managing-reader-revenue-manager/).      
+
+Integrating through Site Kit is our recommended solution for WordPress users. If you're unable to use Site Kit, you can install a third party plugin __WPCode__ and follow the instructions below.
 
 ## For non-Site-Kit users: Add a code snippet to your publication
 1. Open your __WordPress Admin__.
@@ -15,11 +15,10 @@ Integrating through Site Kit is our recommended solution for WordPress users. If
        . You can find the “WPCode – Insert Headers and Footers + Custom Code Snippets – WordPress Code Manager” plugin.
 4. To install this plugin, click Install Now.
 5. Once you install the plugin, to add a snippet:
-
        a. On the left, under “Code Snippets,” click Add snippet and then Add your Custom Code.
        b. Add a title you want to use for your snippet.
        c, Copy the Reader Revenue Manager code snippet.
-       d. Paste the Reader Revenue Manager code snippet from the “CMS Sync” tab in Google Publisher Center.
+       d. Paste the Reader Revenue Manager code snippet from the “CMS Sync” tab in [Google Publisher Center](http://publishercenter.google.com/).
 6. Turn on __Active__.
 7. Set “Code type” to “HTML Snippet.”
         
