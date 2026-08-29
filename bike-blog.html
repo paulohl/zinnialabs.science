@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Zinnia Labs Knowledge Base — notes, arguments, models, and technical essays.">
+  <title>Knowledge Base — Zinnia Labs</title>
+  
+  <link rel="icon" href="assets/images/zfavicon.ico">
+  <link rel="stylesheet" href="assets/css/zinnia-labs.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/zinnia-labs.css">
+
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js"></script>
+</head>
+
+<body>
+  <div class="site-shell">
+
+    <header class="site-header surface-pill">
+      <a class="wordmark" href="index.html" aria-label="Zinnia Labs home">
+        <span class="wordmark-main">ZINNIA</span>
+        <span class="wordmark-sub">LABS</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="bike-blog.html" class="active" aria-current="page">Knowledge Base</a>
+        <a href="bike-journey.html">The Journey</a>
+      </nav>
+    </header>
+
+    <main>
+
+      <section class="hero-card bubble kb-hero">
+        <div class="eyebrow">ZINNIA LABS / KNOWLEDGE BASE</div>
+
+        <h1>
+          Notes.<br>
+          Models.<br>
+          <span class="soft">Arguments that survive contact.</span>
+        </h1>
+
+        <div class="hero-bottom">
+          <p class="lede">
+            A working knowledge base for technical arguments, architecture notes,
+            mathematical models, research fragments, and longer-form essays.
+          </p>
+
+          <div class="hero-index" aria-hidden="true">KB</div>
+        </div>
+      </section>
+
+      <section class="bubble kb-section">
+        <div class="section-heading kb-heading">
+          <div class="section-marker">01 / AI SYSTEMS</div>
+          <h2>Taxonomy, architecture,<br>and deployment fallacies.</h2>
+        </div>
+
+        <div class="kb-grid">
+            
+            
+            <hr>
+
+
+          <article class="kb-card">
+            <div class="kb-media">
+              <img src="assets/images/ai_taxonomy_fallacy_poster.webp" width="1200" alt="AI Taxonomy Fallacy poster">
+            </div>
+            <div class="kb-card-body">
+              <div class="kb-meta">AUGUST 2015 / AI SYSTEMS</div>
+              <h3>The AI Taxonomy Fallacy</h3>
+              <p>
+                To kill the whole “Types / Evolution / Landscape” bubble.
+                The familiar ladder — Symbolic → ML → Deep Learning → GenAI →
+                Agentic → AGI — confuses substrate, capability, and system architecture.
+              </p>
+              <p class="math-note">
+                A real system is not a step on a ladder. It is a coordinate in
+                <strong>S × C × A</strong>.
+              </p>
+              <a href="Ai-Taxonomy-Fallacy-No.html" class="card-link">
+                Read note <span>↗</span>
+              </a>
+            </div>
+          </article>
+          
+          
+          
+          <hr>
+
+              
+
+          <article class="kb-card">
+            <div class="kb-media">
+              <img src="assets/images/GenAI_is_AI_n.webp" width="1200" alt="Generative AI and Agentic AI diagram">
+            </div>
+            <div class="kb-card-body">
+              <div class="kb-meta">AUGUST 2015 / AI SYSTEMS</div>
+              <h3>The GenAI Evolution Fallacy</h3>
+              <p>
+                “Agentic is the new” collapses under engineering inspection.
+                The agent is a wrapper around the model, not a new foundation-model class.
+              </p>
+              <div class="equation">
+                $$Agent = LLM_\theta + Loop + Tools + Memory + State$$
+              </div>
+              <p>
+                The engineering pattern is still perceive → reason → act inside a control loop.
+              </p>
+              <a href="Ai-Is-Genai.html" class="card-link">
+                Read note <span>↗</span>
+              </a>
+            </div>
+          </article>
+          
+          
+          <hr>
+
+
+          <article class="kb-card">
+            <div class="kb-media">
+              <img src="assets/images/ai_deployment_infographic.webp" width="1200" alt="AI deployment infographic">
+            </div>
+            <div class="kb-card-body">
+              <div class="kb-meta">AUGUST 2015 / AI SYSTEMS</div>
+              <h3>The Data-First Fallacy</h3>
+              <p>
+                Data quality cannot be defined independently of the hypothesis,
+                architecture, and loss function. Data is a derived constraint from
+                the decision problem, not automatically the starting point.
+              </p>
+              <div class="equation">
+                $$D_{\text{req}} = \{(x,y) \mid I(x;y \mid \theta) > \epsilon\}$$
+              </div>
+              <a href="Ai-First-Vs-Data.html" class="card-link">
+                Read note <span>↗</span>
+              </a>
+            </div>
+          </article>
+          
+          <hr>
+
+
+        </div>
+      </section>
+
+      <section class="bubble kb-section">
+        <div class="section-heading kb-heading">
+          <div class="section-marker">02 / COGNITION</div>
+          <h2>Concepts that need<br>clean definitions.</h2>
+        </div>
+
+        <div class="kb-grid compact">
+
+          <article class="kb-card text-first">
+            <div class="kb-card-body">
+              <div class="kb-meta">REFERENCE / COGNITION</div>
+              <h3>Conscience</h3>
+              <p>
+                An inner cognitive or emotional sense that distinguishes right from wrong,
+                guiding moral conduct and prompting remorse or satisfaction relative to an
+                individual value system.
+              </p>
+              <a href="manifesto.html" class="card-link">Read more <span>↗</span></a>
+            </div>
+          </article>
+          
+          <hr>
+
+          <article class="kb-card text-first">
+            <div class="kb-card-body">
+              <div class="kb-meta">REFERENCE / COGNITION</div>
+              <h3>Cognitive</h3>
+              <p>
+                Mental processes involved in gaining knowledge and comprehension:
+                thinking, knowing, remembering, judging, perception, language, and
+                problem-solving.
+              </p>
+              <a href="manifesto.html" class="card-link">Read more <span>↗</span></a>
+            </div>
+          </article>
+          
+          <hr>
+
+          <article class="kb-card text-first">
+            <div class="kb-card-body">
+              <div class="kb-meta">REFERENCE / COGNITION</div>
+              <h3>Concept</h3>
+              <p>
+                Cognitive consciousness concerns the processing, interpretation, and use
+                of information through mechanisms such as attention, memory, and executive
+                function, with or without subjective awareness.
+              </p>
+              <a href="manifesto.html" class="card-link">Read more <span>↗</span></a>
+            </div>
+          </article>
+          
+          
+          <hr>
+
+          
+
+        </div>
+      </section>
+
+      <section class="bubble network">
+        <div class="section-heading">
+          <div class="section-marker">03 / CONTINUE</div>
+          <h2>Explore the rest<br>of the lab.</h2>
+        </div>
+
+        <div class="link-list">
+          <a href="about.html" class="link-bubble">
+            <span>About Zinnia Labs</span><span class="arrow">↗</span>
+          </a>
+          <a href="bike-journey.html" class="link-bubble">
+            <span>The Journey</span><span class="arrow">↗</span>
+          </a>
+          <a href="manifesto.html" class="link-bubble">
+            <span>Manifesto</span><span class="arrow">↗</span>
+          </a>
+          <a href="index.html" class="link-bubble">
+            <span>Home</span><span class="arrow">↗</span>
+          </a>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-left">
+        <span>ZINNIA LABS</span>
+        <span class="muted">Knowledge / Research / Applied Systems</span>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="bike-blog.html">Knowledge Base</a>
+        <a href="bike-journey.html">Journey</a>
+      </nav>
+
+      <div class="footer-meta">
+        &copy; 2026 Zinnia Holdings LLC. All rights reserved.
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>
