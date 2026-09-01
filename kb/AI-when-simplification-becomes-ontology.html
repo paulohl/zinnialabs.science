@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="When Simplification Becomes Ontology — how explanatory models of AI quietly become claims about hierarchy, evolution, and inevitability.">
+  <link rel="icon" href="assets/images/zfavicon.ico">
+  <title>When Simplification Becomes Ontology — Zinnia Labs</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/zinnia-labs.css">
+
+  <style>
+    /* Page-specific layer only. Canonical site variables and infrastructure remain in zinnia-labs.css. */
+
+    .kb-hero{
+      min-height:560px;
+      padding:clamp(42px,6vw,86px);
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between
+    }
+
+    .kb-hero-grid{
+      display:grid;
+      grid-template-columns:minmax(0,1.55fr) minmax(260px,.45fr);
+      gap:60px;
+      align-items:end
+    }
+
+    .kb-hero h1{
+      margin:66px 0 0;
+      max-width:1120px;
+      font-family:var(--display);
+      font-size:clamp(64px,9vw,132px);
+      line-height:.86;
+      letter-spacing:-.072em;
+      font-weight:500
+    }
+
+    .kb-hero .soft{color:var(--quiet)}
+
+    .kb-deck{
+      max-width:430px;
+      margin:0 0 8px;
+      color:var(--muted);
+      font-size:clamp(18px,1.5vw,23px);
+      line-height:1.42
+    }
+
+    .kb-meta{
+      margin-top:22px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:9px
+    }
+
+    .kb-meta span{
+      padding:8px 12px;
+      border:1px solid var(--line);
+      border-radius:var(--radius-pill);
+      color:var(--quiet);
+      font-size:10px;
+      font-weight:700;
+      letter-spacing:.13em;
+      text-transform:uppercase
+    }
+
+    .figure-card{
+      margin-top:14px;
+      padding:clamp(18px,2.5vw,34px)
+    }
+
+    .figure-frame{
+      overflow:hidden;
+      border:1px solid var(--line);
+      border-radius:30px;
+      background:#050607
+    }
+
+    .figure-frame img{
+      display:block;
+      width:100%;
+      height:auto
+    }
+
+    .figure-caption{
+      display:grid;
+      grid-template-columns:150px minmax(0,1fr);
+      gap:30px;
+      padding:24px 8px 4px;
+      color:var(--muted);
+      font-size:14px;
+      line-height:1.55
+    }
+
+    .figure-caption strong{
+      color:var(--quiet);
+      font-size:10px;
+      letter-spacing:.16em;
+      text-transform:uppercase
+    }
+
+    .essay{
+      margin-top:14px;
+      padding:clamp(48px,6vw,88px)
+    }
+
+    .essay-grid{
+      display:grid;
+      grid-template-columns:minmax(210px,.42fr) minmax(0,1.58fr);
+      gap:clamp(48px,8vw,120px);
+      align-items:start
+    }
+
+    .essay-index{
+      position:sticky;
+      top:24px;
+      color:var(--quiet);
+      font-size:11px;
+      font-weight:700;
+      letter-spacing:.16em;
+      text-transform:uppercase
+    }
+
+    .essay-index ol{
+      margin:28px 0 0;
+      padding:0;
+      list-style:none
+    }
+
+    .essay-index li{
+      margin:0 0 13px;
+      color:var(--muted);
+      font-weight:500;
+      letter-spacing:0;
+      text-transform:none
+    }
+
+    .essay-index a:hover{color:var(--text)}
+
+    .essay-body{
+      max-width:820px
+    }
+
+    .essay-body .lead{
+      margin:0 0 52px;
+      color:var(--text);
+      font-family:var(--display);
+      font-size:clamp(28px,3vw,44px);
+      line-height:1.24;
+      letter-spacing:-.035em
+    }
+
+    .essay-body h2{
+      margin:66px 0 22px;
+      font-family:var(--display);
+      font-size:clamp(38px,4.6vw,67px);
+      line-height:.98;
+      letter-spacing:-.052em;
+      font-weight:500
+    }
+
+    .essay-body h3{
+      margin:40px 0 14px;
+      font-family:var(--display);
+      font-size:clamp(26px,3vw,38px);
+      line-height:1.08;
+      letter-spacing:-.035em;
+      font-weight:500
+    }
+
+    .essay-body p{
+      margin:0 0 26px;
+      color:var(--muted);
+      font-size:18px;
+      line-height:1.76
+    }
+
+    .essay-body strong{color:var(--text)}
+
+    .pullquote{
+      margin:54px 0;
+      padding:clamp(32px,5vw,58px);
+      border:1px solid var(--line);
+      border-radius:var(--radius-lg);
+      background:var(--surface-2)
+    }
+
+    .pullquote p{
+      margin:0;
+      color:var(--text);
+      font-family:var(--display);
+      font-size:clamp(29px,3.6vw,49px);
+      line-height:1.18;
+      letter-spacing:-.041em
+    }
+
+    .pullquote .tag{
+      display:block;
+      margin-bottom:22px;
+      color:var(--signal);
+      font-family:var(--body);
+      font-size:10px;
+      font-weight:700;
+      letter-spacing:.16em;
+      text-transform:uppercase
+    }
+
+    .relation-grid{
+      display:grid;
+      grid-template-columns:repeat(2,minmax(0,1fr));
+      gap:14px;
+      margin:38px 0 50px
+    }
+
+    .relation{
+      min-height:205px;
+      padding:28px;
+      border:1px solid var(--line);
+      border-radius:var(--radius-lg);
+      background:var(--surface-2)
+    }
+
+    .relation .label{
+      color:var(--quiet);
+      font-size:10px;
+      font-weight:700;
+      letter-spacing:.16em;
+      text-transform:uppercase
+    }
+
+    .relation h3{
+      margin:46px 0 12px;
+      font-size:clamp(27px,3vw,39px)
+    }
+
+    .relation p{
+      margin:0;
+      font-size:15px;
+      line-height:1.55
+    }
+
+    .test-card{
+      margin:56px 0;
+      padding:clamp(34px,5vw,62px);
+      border:1px solid var(--signal);
+      border-radius:var(--radius-xl);
+      background:linear-gradient(135deg,rgba(224,109,95,.11),rgba(17,20,22,.96))
+    }
+
+    .test-card .section-marker{color:var(--signal)}
+
+    .test-card p{
+      margin:24px 0 0;
+      color:var(--text);
+      font-family:var(--display);
+      font-size:clamp(34px,4.8vw,63px);
+      line-height:1.08;
+      letter-spacing:-.05em
+    }
+
+    .sequence{
+      margin:35px 0 48px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      align-items:center
+    }
+
+    .sequence span{
+      padding:10px 14px;
+      border:1px solid var(--line);
+      border-radius:var(--radius-pill);
+      background:var(--surface-2);
+      color:var(--muted);
+      font-size:12px;
+      font-weight:600
+    }
+
+    .sequence b{
+      color:var(--quiet);
+      font-size:15px;
+      font-weight:400
+    }
+
+    .closing{
+      margin-top:14px;
+      min-height:430px;
+      padding:clamp(48px,6vw,88px);
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between
+    }
+
+    .closing p{
+      max-width:1150px;
+      margin:50px 0 0;
+      font-family:var(--display);
+      font-size:clamp(42px,6.6vw,94px);
+      line-height:.99;
+      letter-spacing:-.061em;
+      font-weight:500
+    }
+
+    .closing .quiet{color:var(--quiet)}
+
+    @media(max-width:900px){
+      .kb-hero-grid,.essay-grid{grid-template-columns:1fr}
+      .essay-index{position:static}
+      .essay-index ol{display:flex;flex-wrap:wrap;gap:9px 18px}
+      .essay-index li{margin:0}
+      .figure-caption{grid-template-columns:1fr}
+      .relation-grid{grid-template-columns:1fr}
+    }
+
+    @media(max-width:560px){
+      .kb-hero{padding:36px 25px;min-height:520px}
+      .kb-hero h1{font-size:clamp(57px,18vw,82px)}
+      .essay,.closing{padding:48px 27px}
+      .figure-card{padding:9px}
+      .figure-frame{border-radius:22px}
+      .pullquote,.test-card{border-radius:25px}
+    }
+  </style>
+</head>
+
+<body>
+  <div class="site-shell">
+
+    <header class="site-header surface-pill">
+      <a class="wordmark" href="index.html" aria-label="Zinnia Labs home">
+        <span class="wordmark-main">ZINNIA</span>
+        <span class="wordmark-sub">LABS</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="bike-blog.html" class="active" aria-current="page">KB</a>
+        <a href="bike-journey.html">The Journey</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="kb-hero bubble">
+        <div class="section-marker">ZINNIA LABS / KNOWLEDGE BASE / AI EPISTEMOLOGY</div>
+
+        <div class="kb-hero-grid">
+          <div>
+            <h1>
+              When Simplification<br>
+              <span class="soft">Becomes Ontology.</span>
+            </h1>
+          </div>
+
+          <div>
+            <p class="kb-deck">
+              How explanatory models of AI quietly become claims about hierarchy,
+              evolution, progress, and inevitability.
+            </p>
+
+            <div class="kb-meta" aria-label="Article metadata">
+              <span>Essay</span>
+              <span>AI Architecture</span>
+              <span>Epistemology</span>
+              <span>2026</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <figure class="figure-card bubble">
+        <div class="figure-frame">
+          <img src="assets/images/ai-taxonomy-evolution.jpeg"
+               alt="AI educational infographic presenting AI, machine learning, deep learning, generative AI, LLMs, RAG, and agentic AI as a hierarchy and a simple evolutionary flow.">
+        </div>
+
+        <figcaption class="figure-caption">
+          <strong>Observed pattern</strong>
+          <span>
+            A technically motivated educational graphic can be useful while still encoding
+            stronger claims than its individual definitions justify. The issue is not whether
+            every box is wrong. The issue is what the structure teaches the reader to believe
+            about the relationships among the boxes.
+          </span>
+        </figcaption>
+      </figure>
+
+      <article class="essay bubble">
+        <div class="essay-grid">
+
+          <aside class="essay-index" aria-label="Article contents">
+            <div>CONTENTS</div>
+            <ol>
+              <li><a href="#abstraction">01 / Necessary abstraction</a></li>
+              <li><a href="#grammar">02 / Visual grammar</a></li>
+              <li><a href="#categories">03 / Category drift</a></li>
+              <li><a href="#test">04 / The novice test</a></li>
+              <li><a href="#normative">05 / Descriptive → normative</a></li>
+              <li><a href="#institutions">06 / Institutional effects</a></li>
+              <li><a href="#trajectory">07 / The emergent trajectory</a></li>
+            </ol>
+          </aside>
+
+          <div class="essay-body">
+
+            <p class="lead">
+              Simplification is not the enemy of understanding. It is one of its prerequisites.
+              The danger begins when a simplification stops merely removing detail and starts
+              inventing relationships to replace the detail it removed.
+            </p>
+
+            <section id="abstraction">
+              <div class="section-marker">01 / NECESSARY ABSTRACTION</div>
+              <h2>The useful lie.</h2>
+
+              <p>
+                Artificial intelligence is too large, too historically layered, and too
+                architecturally heterogeneous to present in full every time it must be explained.
+                Executives, students, product managers, policymakers, and non-specialist
+                practitioners require compact models. A diagram that distinguishes machine
+                learning from deep learning, generative systems from predictive systems, or
+                retrieval augmentation from unaided generation can therefore be genuinely useful.
+              </p>
+
+              <p>
+                No serious pedagogy demands that every introductory diagram contain the entire
+                history of symbolic AI, statistical learning, probabilistic modeling, neural
+                computation, representation learning, foundation models, retrieval systems,
+                planning, tool use, control loops, memory, and orchestration. Teaching requires
+                compression. The relevant question is not whether a diagram is incomplete.
+                <strong>All useful diagrams are incomplete.</strong>
+              </p>
+
+              <p>
+                The relevant question is what the compression preserves—and what it silently
+                manufactures.
+              </p>
+            </section>
+
+            <section id="grammar">
+              <div class="section-marker">02 / VISUAL GRAMMAR</div>
+              <h2>A diagram makes claims before the reader reads it.</h2>
+
+              <p>
+                Visual structure is not a neutral container for text. A nested circle communicates
+                containment. A staircase communicates progression. A left-to-right arrow suggests
+                succession. A rising arrow suggests improvement. A timeline asserts chronology.
+                The word <em>evolution</em> adds a further implication: that one state developed
+                into the next through some coherent trajectory.
+              </p>
+
+              <p>
+                These signals operate before the details inside the boxes are considered. A
+                caption may say that concepts are merely “related,” while the graphic simultaneously
+                shows them as nested, ascending, or sequential. In such cases, the visual grammar
+                can carry a stronger proposition than the prose.
+              </p>
+
+              <div class="pullquote">
+                <span class="tag">Representational principle</span>
+                <p>
+                  A diagram does not merely organize information. Through structure, it asserts
+                  relationships.
+                </p>
+              </div>
+
+              <p>
+                This is why a technically defensible list of terms can still produce a misleading
+                conceptual model. The accuracy of the labels does not automatically validate the
+                topology used to connect them.
+              </p>
+            </section>
+
+            <section id="categories">
+              <div class="section-marker">03 / CATEGORY DRIFT</div>
+              <h2>The terms do not all live on the same plane.</h2>
+
+              <p>
+                The familiar sequence—AI, ML, DL, GenAI, LLMs, RAG, Agentic AI—looks intuitively
+                coherent because the terms are culturally adjacent. But adjacency is not taxonomy.
+                They describe different kinds of things and different kinds of relationships.
+              </p>
+
+              <div class="relation-grid">
+                <div class="relation">
+                  <div class="label">Taxonomic relation</div>
+                  <h3>AI → ML → DL</h3>
+                  <p>
+                    As a simplified teaching hierarchy, this is broadly defensible: machine
+                    learning is commonly treated as a family within AI, and deep learning as a
+                    family within machine learning.
+                  </p>
+                </div>
+
+                <div class="relation">
+                  <div class="label">Capability / paradigm</div>
+                  <h3>Generative AI</h3>
+                  <p>
+                    “Generative” describes what a class of systems does, not a clean chronological
+                    successor to deep learning. Contemporary GenAI relies heavily on deep learning,
+                    but the conceptual categories are not equivalent.
+                  </p>
+                </div>
+
+                <div class="relation">
+                  <div class="label">Model family</div>
+                  <h3>LLMs</h3>
+                  <p>
+                    Large language models are a major model family used for generative and other
+                    language tasks. They are not simply the stage that comes “after” GenAI.
+                  </p>
+                </div>
+
+                <div class="relation">
+                  <div class="label">Architecture / system behavior</div>
+                  <h3>RAG + Agentic AI</h3>
+                  <p>
+                    Retrieval-augmented generation is an architectural pattern. Agentic behavior
+                    describes systems that plan, select actions, use tools, maintain state, or
+                    pursue goals. Either may use the other; neither is a universal evolutionary
+                    successor.
+                  </p>
+                </div>
+              </div>
+
+              <p>
+                The conceptual drift is subtle. A sequence may begin as taxonomy, move into model
+                families, continue into architectural patterns, and finish with system behavior—
+                while preserving the same arrow between every term. The arrow then performs work
+                that the categories themselves cannot justify.
+              </p>
+
+              <div class="sequence" aria-label="Common oversimplified AI evolution sequence">
+                <span>AI</span><b>→</b>
+                <span>ML</span><b>→</b>
+                <span>DL</span><b>→</b>
+                <span>GenAI</span><b>→</b>
+                <span>LLMs</span><b>→</b>
+                <span>RAG</span><b>→</b>
+                <span>Agentic AI</span>
+              </div>
+
+              <p>
+                Everything in that line is related. <strong>The relation represented by the arrow
+                is the problem.</strong>
+              </p>
+            </section>
+
+            <section id="test">
+              <div class="section-marker">04 / THE NOVICE TEST</div>
+              <h2>Do not ask only whether the diagram is correct.</h2>
+
+              <p>
+                Introductory material should not be judged by the standards of a formal ontology.
+                That would turn useful simplification into an impossible exercise. A more
+                consequential test is to ask what durable mental model the teaching device leaves
+                behind.
+              </p>
+
+              <div class="test-card">
+                <div class="section-marker">THE TEST</div>
+                <p>
+                  What false mental model is a competent novice likely to retain after learning
+                  from this abstraction?
+                </p>
+              </div>
+
+              <p>
+                A learner may reasonably leave an evolutionary diagram believing that AI became
+                machine learning, machine learning became deep learning, deep learning became
+                generative AI, generative AI became LLMs, LLMs became RAG, and RAG is now becoming
+                Agentic AI. From there, a second inference follows naturally: Agentic AI is the
+                newest, highest, or most advanced stage of AI.
+              </p>
+
+              <p>
+                That conclusion is not merely missing nuance. It is a proposition introduced by
+                the teaching device itself.
+              </p>
+
+              <div class="pullquote">
+                <span class="tag">Boundary condition</span>
+                <p>
+                  Simplification is productive when it removes detail. It becomes misleading when
+                  it invents causality, containment, hierarchy, chronology, or inevitability to
+                  replace the detail it removed.
+                </p>
+              </div>
+            </section>
+
+            <section id="normative">
+              <div class="section-marker">05 / DESCRIPTIVE → NORMATIVE</div>
+              <h2>When the map begins to prescribe the journey.</h2>
+
+              <p>
+                The consequences become more significant when the audience is not merely learning
+                terminology. Executives use mental models to allocate capital, select vendors,
+                reorganize teams, set strategic priorities, establish governance, and decide what
+                technological capabilities an organization is expected to acquire next.
+              </p>
+
+              <p>
+                A graphic originally intended to explain a landscape can therefore become a
+                maturity model without ever declaring itself one. If Agentic AI appears at the
+                far right of an evolutionary sequence, “moving toward Agentic AI” begins to look
+                like progress. Remaining with simpler automation, conventional predictive models,
+                or non-agentic architectures can then appear to be technological lag—even where
+                those approaches are better suited to the problem.
+              </p>
+
+              <p>
+                This is the transition from <strong>descriptive abstraction</strong> to
+                <strong>normative expectation</strong>. We first draw a progression to make the
+                technology easier to explain. We then begin evaluating organizations by their
+                position on the progression we drew.
+              </p>
+            </section>
+
+            <section id="institutions">
+              <div class="section-marker">06 / INSTITUTIONAL EFFECTS</div>
+              <h2>The abstraction does not remain inside the diagram.</h2>
+
+              <p>
+                Once a technological progression is culturally stabilized, institutions begin to
+                form around it. New architectural categories become new operating models. New
+                operating models generate new organizational structures. New structures create
+                executive titles, professional identities, advisory functions, certifications,
+                governance bodies, procurement categories, and specialized consultancies.
+              </p>
+
+              <p>
+                None of these developments is inherently illegitimate. A company may have good
+                reasons to appoint an executive responsible for AI. It may need dedicated
+                governance. New forms of engineering expertise may deserve names. New training
+                programs may be useful. New architectures may genuinely require organizational
+                adaptation.
+              </p>
+
+              <p>
+                The interesting problem appears at the aggregate level. Each local decision can be
+                individually rational while the collective trajectory remains largely unexamined.
+                What begins as a descriptive model of emerging technology can become part of the
+                machinery through which organizations construct the future that the model appeared
+                merely to predict.
+              </p>
+            </section>
+
+            <section id="trajectory">
+              <div class="section-marker">07 / THE EMERGENT TRAJECTORY</div>
+              <h2>Locally reasonable. Globally unexamined.</h2>
+
+              <p>
+                This is why the strongest criticism of simplified AI diagrams is not that their
+                authors are technically unsophisticated, nor that every relationship they show is
+                false. That criticism is too easy and often unfair. A diagram may teach useful
+                distinctions and still create a problematic ontology. A professional role may be
+                useful and still emerge from an assumed technological trajectory. An organizational
+                redesign may be rational and still participate in a direction nobody explicitly
+                chose.
+              </p>
+
+              <p>
+                The more interesting question is therefore epistemological: when we look at the
+                apparently accelerating succession of GenAI, agents, agentic systems, AI-native
+                organizations, AI-specific leadership structures, and new institutional practices,
+                which parts are observations about technology—and which parts are projections
+                generated by the explanatory frameworks we have adopted?
+              </p>
+
+              <p>
+                A mature response does not require rejecting the trajectory. It requires preserving
+                the distinction between <strong>what the technology is</strong>,
+                <strong>what an explanatory model says about it</strong>, and
+                <strong>what institutions subsequently decide to build around that model</strong>.
+              </p>
+            </section>
+
+          </div>
+        </div>
+      </article>
+
+      <section class="closing bubble">
+        <div class="section-marker">CLOSING QUESTION / LEFT DELIBERATELY OPEN</div>
+        <p>
+          Are we observing how AI is evolving,
+          <span class="quiet">or how humans are reorganizing reality around the story we have
+          constructed about how AI will evolve?</span>
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>Zinnia Labs</strong>
+        <span class="muted">Knowledge Base / Research notes, arguments, models, and technical essays.</span>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="bike-blog.html">KB</a>
+      </nav>
+
+      <div class="footer-meta">
+        © <span id="year"></span> Zinnia Labs
+      </div>
+    </footer>
+
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
